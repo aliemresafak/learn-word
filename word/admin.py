@@ -5,4 +5,4 @@ from word.models import Word
 
 @admin.register(Word)
 class WordAdmin(admin.ModelAdmin):
-    list_display = ("name", "meaning", "category")
+    list_display = ("name", "type", "meaning", "category")
